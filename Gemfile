@@ -17,7 +17,7 @@ gem 'mongoid', '~>5.1', '>=5.1.5'
 group :development do 
 	gem 'spring'        
 end
-
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
 group :development, :test do 
 	gem 'rspec-rails', '~>3.5', '>=3.5.2'
 	gem 'httparty', '~>0.14', '>=0.14.0'
